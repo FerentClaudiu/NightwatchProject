@@ -15,6 +15,7 @@ module.exports ={
         .assert.containsText(becomeMemberSelector,becomeMemberText,'Become a member button is displayed')
         .setValue(emailAddressSelector,emailAddress) 
         .click(signUpButtonSelector)
+        
         .saveScreenshot('tests_output/medium.png') 
     }
 }
